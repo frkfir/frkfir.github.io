@@ -1,2 +1,0 @@
-# frkfir.github.io
-AAAA
