@@ -130,12 +130,37 @@
   max-width: 800px;
   /* Adjust as needed */
 }
+@media (min-width: 960px) and (max-width: 1279.98px) {
+  .projects-page .project-container .primo-main-header-project.cohub-main-header .project-image {
+    max-width: 550px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1919.98px) {
+  .projects-page .project-container .primo-main-header-project.cohub-main-header .project-image {
+    max-width: 550px;
+  }
+}
 .projects-page .project-container .primo-main-header-project.cohub-main-header .project-image img {
   width: 100%;
   height: auto;
   max-width: 800px;
   /* Adjust if needed */
   object-fit: contain;
+}
+@media (min-width: 960px) and (max-width: 1279.98px) {
+  .projects-page .project-container .primo-main-header-project.cohub-main-header .project-image img img {
+    width: 550px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1919.98px) {
+  .projects-page .project-container .primo-main-header-project.cohub-main-header .project-image img img {
+    width: 550px;
+  }
+}
+@media (min-width: 600px) and (max-width: 959.98px) {
+  .projects-page .project-container .primo-main-header-project.amudAanan-main-header {
+    gap: 3rem;
+  }
 }
 .projects-page .project-container .primo-main-header-project.amudAanan-main-header .project-text div {
   align-items: baseline;

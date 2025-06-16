@@ -174,6 +174,10 @@ $breakpoints: (
           width: 100%;
           max-width: 800px;
 
+          @include respond-to("tablet", "desktop") {
+            max-width: 550px;
+          }
+
           /* Adjust as needed */
           img {
             width: 100%;
@@ -181,11 +185,21 @@ $breakpoints: (
             max-width: 800px;
             /* Adjust if needed */
             object-fit: contain;
+
+            img {
+              @include respond-to("tablet", "desktop") {
+                width: 550px;
+              }
+            }
           }
         }
       }
 
       &.amudAanan-main-header {
+        @include respond-to("tabletVertical") {
+          gap: 3rem;
+        }
+
         .project-text {
           div {
             align-items: baseline;
