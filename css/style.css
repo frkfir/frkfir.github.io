@@ -157,6 +157,21 @@
     width: 550px;
   }
 }
+@media (min-width: 1280px) and (max-width: 1919.98px) {
+  .projects-page .project-container .primo-main-header-project.amudAanan-main-header {
+    gap: 15rem;
+  }
+}
+@media (min-width: 1920px) {
+  .projects-page .project-container .primo-main-header-project.amudAanan-main-header {
+    gap: 15rem;
+  }
+}
+@media (min-width: 960px) and (max-width: 1279.98px) {
+  .projects-page .project-container .primo-main-header-project.amudAanan-main-header {
+    gap: 5rem;
+  }
+}
 @media (min-width: 600px) and (max-width: 959.98px) {
   .projects-page .project-container .primo-main-header-project.amudAanan-main-header {
     gap: 3rem;

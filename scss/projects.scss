@@ -196,6 +196,14 @@ $breakpoints: (
       }
 
       &.amudAanan-main-header {
+        @include respond-to("desktop", "desktopLarge") {
+          gap: 15rem;
+        }
+
+        @include respond-to("tablet") {
+          gap: 5rem;
+        }
+
         @include respond-to("tabletVertical") {
           gap: 3rem;
         }
