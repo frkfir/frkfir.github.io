@@ -1191,15 +1191,17 @@
   transform: translateX(-50%);
   font-size: 0.85rem;
   color: var(--text-light);
+  left: 90%;
+  width: 100%;
 }
 .projects-page .project-container .project-page-section.data-analyst .growth-year:nth-child(1) {
   left: 10%;
 }
 .projects-page .project-container .project-page-section.data-analyst .growth-year:nth-child(2) {
-  left: 50%;
+  left: 0;
 }
 .projects-page .project-container .project-page-section.data-analyst .growth-year:nth-child(3) {
-  left: 90%;
+  left: 46%;
 }
 .projects-page .project-container .project-page-section.data-analyst .growth-dot {
   position: absolute;
@@ -1250,7 +1252,7 @@
 .projects-page .project-container .project-page-section.data-analyst .growth-multiplier {
   position: absolute;
   right: 5%;
-  top: 5%;
+  top: -25px;
   font-size: 2.2rem;
   font-weight: 500;
   color: var(--primary-color);

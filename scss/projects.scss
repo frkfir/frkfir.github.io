@@ -1047,6 +1047,8 @@ $breakpoints: (
           transform: translateX(-50%);
           font-size: 0.85rem;
           color: var(--text-light);
+          left: 90%;
+          width: 100%;
         }
 
         .growth-year:nth-child(1) {
@@ -1054,11 +1056,11 @@ $breakpoints: (
         }
 
         .growth-year:nth-child(2) {
-          left: 50%;
+          left: 0;
         }
 
         .growth-year:nth-child(3) {
-          left: 90%;
+          left: 46%;
         }
 
         .growth-dot {
@@ -1116,7 +1118,7 @@ $breakpoints: (
         .growth-multiplier {
           position: absolute;
           right: 5%;
-          top: 5%;
+          top: -25px;
           font-size: 2.2rem;
           font-weight: 500;
           color: var(--primary-color);
